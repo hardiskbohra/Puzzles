@@ -1,0 +1,37 @@
+Question : What is the minimum number of races necessary to determine your three fastest horses? (25 horses, 5 horse in each race, find top 3 horses)
+
+Answer : 7 Races
+
+Explanation :
+
+  Let's say, We have 25 Horses and the group of 5 horses are :
+
+  G1 = H1, H2, H3, H4, H5
+  G2 = H6, H7, H8, H9, H10
+  G3 = H11, H12, H13, H14, H15
+  G4 = H16, H17, H18, H19, H20
+  G5 = H21, H22, H23, H24, H25
+
+  H1 comes first in the race then H2 then H3 then H4 and then H5
+
+  Race 1 : H1, H2, H3, H4, H5
+
+  Race 2 : H6, H7, H8, H9, H10
+
+  Race 3 : H11, H12, H13, H14, H15
+
+  Race 4 : H16, H17, H18, H19, H20
+
+  Race 5 : H21, H22, H23, H24, H25
+
+  Now arrange race between winner's of all the above races as :
+
+  Race 6 : H1, H6, H11, H16, H21
+
+  As H6 comes second in the race, so we can be sure that only H7 could have the possibility of third fastest horse
+  and horses (H8, H9, H10) cannot acquire top 3 positions rather they can be at any position between fourth one to last position.
+
+  As H1 comes first in the race, so we can be sure that only H2 and H3 could have the possibility of second and third fastest horse respectively
+  and horses (H4, H5)cannot acquire top 3 positions rather they can be at any position between fourth one to last position.
+
+  Race 7 : H2, H3, H6, H7, H11
