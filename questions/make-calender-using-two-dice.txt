@@ -1,0 +1,10 @@
+
+Question : Make a calendar days using two six sided dices.
+
+Answer : We are using two six sided dices..
+
+         Dice 1 = 0, 1, 2, 3, 4, 5
+         Dice 2 = 6, 7, 8, 0, 1, 2
+
+         here, we can use 6 for the number 9.
+         we need 11, 22. That's why we are taking digit 1 and digit 2 two times.
