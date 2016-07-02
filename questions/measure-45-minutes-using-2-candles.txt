@@ -1,0 +1,28 @@
+
+Question : Given two candles. Each can burn for 60 minutes. Both candles can burn from both sides.
+           How will you measure 45 minutes?
+
+Answer : both the candles together on a horizontal surface, next to each other, but both pointing in opposite direction as shown….
+         <=======
+         =======>
+
+         now light both the candles….
+
+         when both the flames on both candles meet , exactly half an hour would hav passed…
+         now the candles should look like…
+         ....|<===
+         ===>|....
+
+         now rearrange the candles…
+         ===>
+         <===
+
+         now wait until the flames meet.
+         so that the total time elapsed will be 30 + 15 = 45 minutes.
+
+         ---------------------------------------------- OR---------------------------------------------------------
+
+         1. Light the first candle from both the sides and 2nd candle from one side.
+         2. 1st candle will finish in 30 min. while 2nd candle will be burnt half way.
+         3. Now light 2nd candle from both the sides. It will finish in next 15 min.
+         So we have calculated 45 minutes in all.
